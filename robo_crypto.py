@@ -4,7 +4,10 @@ import time
 from binance.client import Client
 from binance.enums import *
 import math
+from dotenv import load_dotenv
 
+
+load_dotenv()
 api_key = os.getenv("KEY_BINANCE")
 secret_key = os.getenv("SECRET_BINANCE")
 
